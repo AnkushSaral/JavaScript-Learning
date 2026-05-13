@@ -34,7 +34,7 @@ A basic calculator project built using JavaScript.
 > Note: This project also has its own separate repository.
 
 Repository Link:  
-[To-Do List Repo](https://github.com/AnkushSaral/Simple-Calculator)
+[Simple Calculator Repo](https://github.com/AnkushSaral/Simple-Calculator)
 
 ---
 
