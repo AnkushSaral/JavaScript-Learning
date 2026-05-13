@@ -34,14 +34,6 @@ A basic calculator project built using JavaScript.
 > Note: This project also has its own separate repository.
 
 Repository Link:  
-[Add Calculator Repo Link Here](#)
-
----
-
-### ✅ To-Do List
-A simple task management project for practicing DOM manipulation and JavaScript fundamentals.
-
-Repository Link:  
 [To-Do List Repo](https://github.com/AnkushSaral/Simple-Calculator)
 
 ---
