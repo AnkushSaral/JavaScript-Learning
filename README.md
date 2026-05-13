@@ -58,7 +58,7 @@ Repository Link:
 - HTML
 - CSS
 - JavaScript
-- Tailwind (For major project only)
+- Tailwind (For major and minor project only)
 
 ---
 
