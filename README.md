@@ -24,7 +24,7 @@ The Spotify Clone is the major frontend project of this learning journey.
 > Note: The complete source code is maintained in a separate dedicated repository and is not included here.
 
 Repository Link:  
-[Add Spotify Clone Repo Link Here](https://github.com/AnkushSaral/Audio-Player-Frontend-HTML-Tailwind-JS)
+[Spotify Clone Repo](https://github.com/AnkushSaral/Audio-Player-Frontend-HTML-Tailwind-JS)
 
 ---
 
@@ -42,7 +42,7 @@ Repository Link:
 A simple task management project for practicing DOM manipulation and JavaScript fundamentals.
 
 Repository Link:  
-[Add To-Do List Repo Link Here](https://github.com/AnkushSaral/Simple-Calculator)
+[To-Do List Repo](https://github.com/AnkushSaral/Simple-Calculator)
 
 ---
 
