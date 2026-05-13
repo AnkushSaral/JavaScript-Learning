@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+
+    <title>To Do App: A Simple Project</title>
+  </head>
+  <body class="bg-black overflow-hidden">
+    <!-- Heading Starts Here -->
+    <h1
+      class="text-[#1ced9d] text-5xl uppercase font-semibold text-center mt-8 mb-8 md:font-bold"
+    >
+      Todo App
+    </h1>
+    <!-- Heading Ends Here -->
+
+    <!-- Input box starts here -->
+    <div
+      class="w-[95%] h-[10vh] mx-auto flex flex-col mt-2 justify-center items-center md:flex-row md:w-[65%]"
+    >
+      <input
+        class="input-text w-full h-12 text-[#9a9da1] border-b border-white px-2 py-1 focus:border-[#1ced9d] focus:outline-hidden transition-all duration-100 md:w-[80%] lg:w-[85%] xl:w-[90%] md:h-14"
+        type="text"
+        placeholder="write anything and click add"
+      />
+      <button
+        class="add-task-button bg-[#1ced9d] w-full h-12 mt-3 rounded-3xl px-2 py-1 text-black font-bold text-xl uppercase cursor-pointer active:bg-[#149966] active:text-white transition-all duration-100 md:w-[20%] lg:w-[15%] xl:w-[10%]"
+      >
+        Add
+      </button>
+    </div>
+    <!-- input box ends here -->
+
+    <!-- Todo container starts here -->
+    <div
+      class="todo-container w-[95%] h-[74vh] md:h-[75vh] lg:h-[68vh] md:w-[65%] mx-auto mt-5 flex flex-col gap-y-2 overflow-y-scroll"
+    ></div>
+    <!-- Todo container ends here -->
+
+
+
+    //Dialog Box
+    <dialog class="z-50 bg-[#242424] w-[95%] h-[50%] md:w-[70%] lg:w-[40%] fixed top-[15%] m-auto hidden flex-col items-center text-white">
+      <div class="mt-5 text-xl uppercase font-bold">
+        <h3>Your Task</h3>
+      </div>
+            <textarea class="w-[90%] h-[70%] mt-1.5 mb-3 outline-0 border border-[#1ced9d] m-auto p-2" name="" id=""></textarea>    
+            <div class="flex justify-end w-[90%] pt-0.5 pb-5 gap-1.5 items-center mb-2">
+                     <button class="close-dialog-button bg-[#1ced9d] w-[20%] mt-3 rounded-3xl px-2 py-1 text-black font-bold text-l uppercase cursor-pointer active:bg-[#149966] active:text-white transition-all duration-100 md:w-[20%] lg:w-[20%] xl:w-[30%]" > Close</button>
+                     <button class="save-dialog-button bg-[#1ced9d] w-[20%] mt-3 rounded-3xl px-2 py-1 text-black font-bold text-l uppercase cursor-pointer active:bg-[#149966] active:text-white transition-all duration-100 md:w-[20%] lg:w-[20%] xl:w-[30%]" > Save</button>
+              </div>
+          </dialog>
+
+    <script src="index.js"></script>
+  </body>
+</html>
